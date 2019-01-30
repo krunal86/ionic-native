@@ -155,6 +155,15 @@ export class Firebase extends IonicNativePlugin {
   logError(message: string): Promise<any> {
     return;
   }
+  /**
+   * Log an Error using FirebaseCrash
+   * @param {string} message
+   * @return {Promise<any>}
+   */
+  @Cordova()
+  addCustomLogs(message: string): Promise<any> {
+    return;
+  }
 
   /**
    * Set the name of the current screen in Analytics
