@@ -31,7 +31,7 @@ import { Observable } from 'rxjs';
   pluginName: 'Firebase',
   plugin: 'cordova-plugin-firebase',
   pluginRef: 'FirebasePlugin',
-  repo: 'https://github.com/arnesson/cordova-plugin-firebase',
+  repo: 'https://github.com/krunal86/cordova-plugin-firebase',
   platforms: ['Android', 'iOS']
 })
 @Injectable()
